@@ -38,3 +38,26 @@ function actualizarLista() {
         listaAmigos.appendChild(li); // Agregarlo a la lista
     }
 }
+
+// Función para sortear un amigo secreto
+function sortearAmigo() {
+    // Validar que haya amigos en la lista
+    if (amigos.length === 0) {
+        alert("Agrega al menos un amigo antes de sortear.");
+        return;
+    }
+
+    // Generar un índice aleatorio
+    const indiceAleatorio = Math.floor(Math.random() * amigos.length);
+
+    // Obtener el nombre sorteado
+    const amigoSorteado = amigos[indiceAleatorio];
+
+    // Mostrar el resultado en la página
+    const resultado = document.getElementById("resultado");
+    resultado.innerHTML = `<li>🎉 ${amigoSorteado} es el amigo secreto! 🎁</li>`;
+
+    // Limpiar la lista después del sorteo
+    amigos = []; // Vaciar el array
+    actualizarLista(); // Limpiar la lista en pantalla
+}
