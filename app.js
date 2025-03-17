@@ -19,3 +19,19 @@ function agregarAmigo() {
     // Limpiar el campo de entrada
     inputNombre.value = "";
 }
+
+// Seleccionar la lista del DOM
+const listaAmigos = document.getElementById("listaAmigos");
+
+// Función para actualizar la lista en pantalla
+function actualizarLista() {
+    // Limpiar la lista antes de agregar nuevos elementos
+    listaAmigos.innerHTML = "";
+
+    // Recorrer el array y agregar cada nombre como <li>
+    for (let i = 0; i < amigos.length; i++) {
+        const li = document.createElement("li"); // Crear un <li>
+        li.textContent = amigos[i]; // Asignar el nombre del amigo
+        listaAmigos.appendChild(li); // Agregarlo a la lista
+    }
+}
