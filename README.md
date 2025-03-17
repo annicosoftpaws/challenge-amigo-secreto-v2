@@ -20,7 +20,6 @@ Este es un proyecto desarrollado como parte del curso ONE Next Education. Se tra
 3. Cada persona recibe su Amigo Secreto de manera aleatoria. 
 
 ## 📁 Estructura del proyecto  
-📂 amigo-secreto
 │── 📄 index.html
 │── 🎨 style.css
 │── 🎲 app.js
