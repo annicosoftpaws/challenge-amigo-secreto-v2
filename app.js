@@ -54,7 +54,7 @@ function sortearAmigo() {
     let amigoSorteado = amigos[indiceAleatorio];
 
     // Mostrar el resultado en la página
-    resultado.innerHTML = "<li>🎉 " + amigoSorteado + " es el amigo secreto! 🎁</li>";
+    resultado.innerHTML = "<li> " + amigoSorteado + " es el amigo secreto! </li>";
 
     // Limpiar la lista después del sorteo
     amigos = []; // Vaciar el array
