@@ -16,6 +16,9 @@ function agregarAmigo() {
     // Agregar el nombre al array de amigos
     amigos.push(nombre);
 
+    // Actualizar la lista en pantalla
+    actualizarLista();
+
     // Limpiar el campo de entrada
     inputNombre.value = "";
 }
