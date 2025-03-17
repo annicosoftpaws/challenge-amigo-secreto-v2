@@ -1,4 +1,4 @@
-# 🎁 Amigo Secreto  
+# 🎁 Amigo Secreto   
 
 Este es un proyecto desarrollado como parte del curso ONE Next Education. Se trata de una aplicación que permite a los usuarios ingresar nombres en una lista y realizar un sorteo aleatorio para determinar quién es el "amigo secreto".  
 
